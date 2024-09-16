@@ -6,6 +6,10 @@
 	"useTabs": true,
 	"jsxSingleQuote": true,
 	"singleAttributePerLine": false,
+	"semi": false,
+	"plugins": [
+		"prettier-plugin-tailwindcss"
+	],
 	"overrides": [
 		{
 			"files": ["*.{yaml,yml}"],
