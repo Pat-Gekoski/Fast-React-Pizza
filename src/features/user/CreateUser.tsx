@@ -1,10 +1,10 @@
-import { useState } from 'react'
+import { FormEvent, useState } from 'react'
 import Button from '../../shared/Button'
 
 function CreateUser() {
 	const [username, setUsername] = useState('')
 
-	function handleSubmit(e) {
+	function handleSubmit(e: FormEvent) {
 		e.preventDefault()
 	}
 
